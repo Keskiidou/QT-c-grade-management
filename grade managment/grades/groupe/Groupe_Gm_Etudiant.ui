@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>groupe_GM_ETU</class>
+ <widget class="QWidget" name="groupe_GM_ETU">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>861</width>
+    <height>766</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="more_info_groupe">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>861</width>
+     <height>661</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="specific_table_groupe">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>60</y>
+     <width>571</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>more_info_groupe</tabstop>
+  <tabstop>specific_table_groupe</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
